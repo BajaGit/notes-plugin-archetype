@@ -1,0 +1,10 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+Bundle-SymbolicName: ${rootArtifactId}.test
+Bundle-Version: 0.0.1.qualifier
+Bundle-Name: TestSuite for ${rootArtifactId}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Fragment-Host: ${rootArtifactId}.core
+Require-Bundle: org.junit
+Import-Package: com.ibm.xsp.resource

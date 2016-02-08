@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/${rootArtifactId}.feature_0.0.1.qualifier.jar" id="${rootArtifactId}.feature" version="0.0.1.qualifier">
+      <category name="${rootArtifactId}"/>
+   </feature>
+   <feature url="features/${rootArtifactId}.source_feature_0.0.1.qualifier.jar" id="${rootArtifactId}.feature.source" version="0.0.1.qualifier">
+      <category name="${rootArtifactId}"/>
+   </feature>
+   <category-def name="${rootArtifactId}" label="${rootArtifactId}"/>
+</site>
